@@ -1,6 +1,7 @@
 package mypack;
+import java.io.*;
  
-public class SampleBean {
+public class SampleBean implements Serializable{
      
     private String userName;
     private String id;
